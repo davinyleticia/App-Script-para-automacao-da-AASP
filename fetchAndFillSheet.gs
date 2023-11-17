@@ -11,7 +11,7 @@ function fetchAndFillSheet() {
   var dataFormatada = Utilities.formatDate(ontem, 'GMT', 'dd/MM/yyyy');
 
   // Construir a URL da API GET com a data de ontem
-  var apiUrl = 'https://intimacaoapi.aasp.org.br/api/Associado/intimacao/?chave=< código ID do Adv na AAASP>&data=' + dataFormatada + '&diferencial=';
+  var apiUrl = 'https://intimacaoapi.aasp.org.br/api/Associado/intimacao/?chave=< código ID do Adv na AAASP >&data=' + dataFormatada + '&diferencial=';
 
 
   // Fazer a solicitação à API GET
